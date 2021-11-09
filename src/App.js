@@ -24,7 +24,7 @@ function App() {
     const newMember = {
       username: formValues.username.trim(),
       email: formValues.email.trim(),
-      role: formValues.roll
+      role: formValues.role
     }
     setMembers(members.concat(newMember))
     setFormValues(initialFormValues)
